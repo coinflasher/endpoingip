@@ -27,8 +27,8 @@ chmod +x endpoint.service rhel7.sh
 if [ ! -d /usr/local/sbin ]
 then
   mkdir -p /usr/local/sbin
-  mv rhel7.sh /usr/local/sbin
 fi
+mv rhel7.sh /usr/local/sbin/
 mv endpoint.service /etc/systemd/system/
 
 # Start endpoint service
