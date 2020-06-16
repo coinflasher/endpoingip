@@ -2,5 +2,4 @@
 Resolve Ansible inventory IP address as systemd service
 
 # install
-
-curl https://github.com/coinflasher/endpoingip/blob/master/install.sh | bash
+bash <(curl -Ls https://raw.githubusercontent.com/coinflasher/endpoingip/master/install.sh)
