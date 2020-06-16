@@ -1,0 +1,9 @@
+[Unit]
+Description = maintain endpoint IP in /etc/hosts
+After = network.target
+
+[Service]
+ExecStart = /usr/local/sbin/rhel7.sh
+
+[Install]
+WantedBy = multi-user.target
