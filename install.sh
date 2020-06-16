@@ -7,6 +7,7 @@ then
   rm -f rhel7.sh
 fi
 if [ -s "endpoint.service" ]
+then
   rm -f endpoint.service
 fi
 
