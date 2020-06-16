@@ -1,7 +1,7 @@
 #!/bin/bash
 
-wget https://github.com/coinflasher/endpoingip/blob/master/rhe7.sh
-wget https://github.com/coinflasher/endpoingip/blob/master/endpoint.service
+wget https://github.com/coinflasher/endpoingip/raw/master/rhe7.sh
+wget https://github.com/coinflasher/endpoingip/raw/master/endpoint.service
 
 chmod +x endpoint.service rhel7.sh
 
